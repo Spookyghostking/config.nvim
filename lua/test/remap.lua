@@ -47,5 +47,9 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 -- open squiggle
 vim.keymap.set("n", "<leader>{", "a{<CR>}<ESC>%a<CR>")
 
--- zoom in and zoom out
+-- swap buffers
+vim.keymap.set("n", "<leader>bb", ":b#<CR>")
+vim.keymap.set("n", "<leader>bn", ":bn<CR>")
+vim.keymap.set("n", "<leader>bp", ":bp<CR>")
+vim.keymap.set("n", "<leader>bc", ":bd<CR>")
 
