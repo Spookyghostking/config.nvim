@@ -53,3 +53,5 @@ vim.keymap.set("n", "<leader>bn", ":bn<CR>")
 vim.keymap.set("n", "<leader>bp", ":bp<CR>")
 vim.keymap.set("n", "<leader>bc", ":bd<CR>")
 
+-- change window
+vim.keymap.set("n", "<leader>w", "<C-w>")
