@@ -1,4 +1,5 @@
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pv", "<CMD>Oil<CR>")
 
 
 vim.g["diagnostic_is_visible"] = true
@@ -28,10 +29,10 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- copy to system clipboard
-vim.keymap.set("n", "<leader>p", "\"*p")
-vim.keymap.set("n", "<leader>y", "\"*y")
-vim.keymap.set("v", "<leader>y", "\"*y")
-vim.keymap.set("n", "<leader>Y", "\"*Y")
+vim.keymap.set("n", "<leader>tp", "\"*p")
+vim.keymap.set("n", "<leader>ty", "\"*y")
+vim.keymap.set("v", "<leader>ty", "\"*y")
+vim.keymap.set("n", "<leader>tY", "\"*Y")
 
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
@@ -39,10 +40,10 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "Q", "<nop>")
 
 -- quickfix shortcuts
-vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
-vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
-vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
-vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+vim.keymap.set("n", "<C-j>", "<cmd>cnext<CR>zz")
+vim.keymap.set("n", "<C-k>", "<cmd>cprev<CR>zz")
+vim.keymap.set("n", "<leader>j", "<cmd>lnext<CR>zz")
+vim.keymap.set("n", "<leader>k", "<cmd>lprev<CR>zz")
 
 -- open squiggle
 vim.keymap.set("n", "<leader>{", "a{<CR>}<ESC>%a<CR>")

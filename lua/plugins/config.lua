@@ -23,6 +23,8 @@ require("mason-lspconfig").setup({
 	},
 })
 
+require("oil").setup()
+
  -- require("lspconfig").lua_ls.setup({
  -- })
 --

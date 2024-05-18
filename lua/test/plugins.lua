@@ -52,7 +52,12 @@ return {
 			"L3MON4D3/LuaSnip",
 			"rafamadriz/friendly-snippets"
 		}
-	}
+	},
+    {
+        "stevearc/oil.nvim",
+        opts = {},
+        dependencies = { "nvim-tree/nvim-web-devicons" }
+    }
 }
 
 
