@@ -56,3 +56,6 @@ vim.keymap.set("n", "<leader>bc", ":bd<CR>")
 
 -- change window
 vim.keymap.set("n", "<leader>w", "<C-w>")
+
+-- kanata remap
+vim.keymap.set("n", "<leader>kks", ":term<CR>akanata -c \"c:\\program files\\devtools\\config.kbd\"<CR>")
